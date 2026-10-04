@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My App - Safe Web Directory in /opt/</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(12px);
+            border-radius: 16px;
+            padding: 40px;
+            max-width: 600px;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+            text-align: center;
+        }
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 12px;
+            font-size: 2rem;
+        }
+        p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+        .badge {
+            display: inline-block;
+            background: #0284c7;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            margin-bottom: 20px;
+        }
+        .info-box {
+            background: #0f172a;
+            border-radius: 8px;
+            padding: 16px;
+            text-align: left;
+            margin-top: 20px;
+            font-family: monospace;
+            font-size: 0.95rem;
+            color: #a5f3fc;
+            border-left: 4px solid #38bdf8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Session 03 - Exercise 5</span>
+        <h1>Welcome to My App</h1>
+        <p>Website tĩnh đã được triển khai an toàn tại phân vùng hệ thống <code>/opt/my-app/html/</code>.</p>
+        <div class="info-box">
+            <div>Root Path: /opt/my-app/html</div>
+            <div>Logs Path: /opt/my-app/logs/</div>
+            <div>Owner: devops:www-data</div>
+        </div>
+    </div>
+</body>
+</html>
